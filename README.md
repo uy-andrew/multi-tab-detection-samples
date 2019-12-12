@@ -14,6 +14,9 @@ npm run start
 ```
 Open the link shown in the terminal to open the application.
 
+### Running Example
+Open this [**website**](https://multitabdetectionsample.z8.web.core.windows.net/) to see the running angular-app.
+
 ## Author
 [**Andrew Uy**](https://github.com/uy-andrew)
 

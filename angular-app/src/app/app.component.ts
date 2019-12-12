@@ -49,5 +49,13 @@ export class AppComponent {
           `totalNumberOfTabsOpened = ${totalNumberOfTabsOpened}`);
       }
     });
+
+    this.multiTabDetection.ClosedTabDetectedEvent.subscribe({
+      next: (totalNumberOfTabsOpened) => {
+        const dateTimeNow = new Date();
+        thisInstance.listOfEvents.push(`${dateTimeNow.toLocaleString()} - Closed Tab Detected. ` +
+          `totalNumberOfTabsOpened = ${totalNumberOfTabsOpened}`);
+      }
+    });
   }
 }
