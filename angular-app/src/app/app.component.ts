@@ -7,7 +7,7 @@ import { MultiTabDetection } from 'multi-tab-detection';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-app';
+  title = 'multi-tab-detection sample';
   multiTabDetection: MultiTabDetection;
   listOfEvents: string[];
   timeOutSet: boolean;
