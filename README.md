@@ -4,7 +4,7 @@ Contains example of how to use the [multi-tab-detection](https://www.npmjs.com/p
 
 | Samples     | Comments                                                                                                                                                                                                                                                                |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| angular-app | Angular 21 application showing how to use the multi-tab-detection. All the codes are in the **src/app/app.component.ts**. The application has a terminal that shows the events it has received. It has also a button to open a new tab to see how the events interacts. |
+| angular-app | Angular 21 application showing how to use the multi-tab-detection. All the codes are in the **src/app/app.ts**. The application has a terminal that shows the events it has received. It has also a button to open a new tab to see how the events interacts. |
 
 ## angular-app
 
