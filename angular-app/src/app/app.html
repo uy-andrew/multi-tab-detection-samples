@@ -333,7 +333,7 @@
       </g>
     </svg>
 
-    <span>{{ title }} is running!</span>
+    <span>{{ title() }} is running!</span>
 
     <svg id="rocket-smoke" xmlns="http://www.w3.org/2000/svg" width="516.119" height="1083.632" viewBox="0 0 516.119 1083.632">
       <title>Rocket Ship Smoke</title>
@@ -354,10 +354,12 @@
 
   <!-- Terminal -->
   <div class="terminal">
-    <pre>Number of Tabs Opened: {{multiTabDetection.NumberOfTabsOpened}}</pre>
+    <pre>Number of Tabs Opened: {{multiTabDetection!.NumberOfTabsOpened}}</pre>
     <pre>Events:</pre>
     <ol>
-      <li *ngFor="let eventItem of listOfEvents">{{eventItem}}</li>
+      @for (eventItem of listOfEvents(); track $index) {
+        <li>{{eventItem}}</li>
+      }
     </ol>
   </div>
 
