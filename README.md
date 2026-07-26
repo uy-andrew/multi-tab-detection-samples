@@ -2,9 +2,9 @@
 
 Contains example of how to use the [multi-tab-detection](https://www.npmjs.com/package/multi-tab-detection) node module.
 
-| Samples     | Comments                                                                                                                                                                                                                                                                |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| angular-app | Angular 21 application showing how to use the multi-tab-detection. All the codes are in the **src/app/app.ts**. The application has a terminal that shows the events it has received. It has also a button to open a new tab to see how the events interacts. |
+| Samples     | Comments                                                                                                                                                                                                                                                      |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| angular-app | Angular 22 application showing how to use the multi-tab-detection. All the codes are in the **src/app/app.ts**. The application has a terminal that shows the events it has received. It has also a button to open a new tab to see how the events interacts. |
 
 ## angular-app
 
@@ -29,5 +29,5 @@ Open this [**website**](https://multitabdetectionsample.z8.web.core.windows.net/
 
 ## License
 
-Copyright © 2019, [Andrew Uy](https://github.com/uy-andrew).
+Copyright © 2026, [Andrew Uy](https://github.com/uy-andrew).
 Released under the [MIT license](https://github.com/uy-andrew/multi-tab-detection/blob/master/LICENSE).
